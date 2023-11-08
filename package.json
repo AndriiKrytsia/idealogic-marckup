@@ -1,0 +1,14 @@
+{
+  "name": "idealogic-marckup",
+  "description": "scss-practical",
+  "source": "index.html",
+"scripts": {
+  "start": "parcel --open",
+  "build": "parcel build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.10.2"
+  }
+}
