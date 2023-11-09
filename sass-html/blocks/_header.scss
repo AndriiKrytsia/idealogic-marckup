@@ -1,0 +1,44 @@
+.header {
+  width: 320px;
+  height: 568px;
+  background-image: url(/sass-html/img/header/image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.header__top {
+  padding-top: 24px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 346px;
+}
+
+// .header__logo {
+// }
+.header__tel {
+  margin-left: auto;
+  margin-right: 24px;
+}
+// .header__menu {
+// }
+
+.header__title {
+  font-size: 32px;
+  color: $color-text;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 100%; /* 32px */
+  letter-spacing: -1.5px;
+}
+
+.header__bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.header__sound-wawes {
+  width: 48px;
+  height: 58px;
+}
