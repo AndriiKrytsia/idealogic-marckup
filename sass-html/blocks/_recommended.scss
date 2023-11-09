@@ -1,0 +1,35 @@
+.recommended {
+  padding-top: 64px;
+  padding-bottom: 96px;
+}
+
+.recommended__title {
+  margin-bottom: 48px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -1.5px;
+}
+
+.recommended__card:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.recommended__product-name {
+  margin-bottom: 8px;
+  color: $color-text;
+  font-weight: 700;
+  line-height: 22.4px;
+}
+
+.recommended__product-description {
+  margin-bottom: 12px;
+  color: $color-text;
+  line-height: 22.4px;
+}
+
+.recommended__product-price {
+  font-weight: 700;
+  line-height: 140%;
+}
