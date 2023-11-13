@@ -125,11 +125,14 @@ body {
   font-weight: 700;
   line-height: 32px;
   letter-spacing: -1.5px;
+  text-align: center;
 }
 
 .header {
-  width: 320px;
+  min-width: 320px;
   height: 568px;
+  padding-left: 20px;
+  padding-right: 20px;
   background-image: url(/sass-html/img/header/image.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -137,7 +140,6 @@ body {
 }
 
 .header__top {
-  padding-top: 24px;
   display: flex;
   justify-content: center;
   margin-bottom: 346px;
@@ -198,4 +200,125 @@ body {
 .recommended__product-price {
   font-weight: 700;
   line-height: 140%;
+}
+
+.category__title {
+  margin-bottom: 48px;
+}
+
+.category__card {
+  margin-bottom: 40px;
+}
+
+.category__img {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.category__img:first-child {
+  margin-right: 10px;
+}
+
+.category__name {
+  font-weight: 700;
+}
+
+.category__button {
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 27px;
+  background-color: #292929;
+  padding: 0px 48px;
+  width: 280px;
+  height: 56px;
+  border-radius: 40px;
+  margin: 0 auto;
+}
+.category__button:hover {
+  color: #292929;
+  border: 3px solid #292929;
+  background-color: transparent;
+}
+
+.guarantees {
+  padding: 96px 0;
+}
+
+.guarantees__title {
+  margin-bottom: 32px;
+}
+
+.guarantees__list {
+  margin-bottom: 40px;
+  display: grid;
+  row-gap: 16px;
+}
+
+.guarantees__item {
+  font-weight: 700;
+}
+
+.guarantees__description {
+  line-height: 27px;
+}
+
+.footer__title {
+  margin-bottom: 48px;
+}
+
+.footer__list {
+  display: grid;
+  row-gap: 24px;
+}
+
+.footer__item {
+  color: #3e3e3e;
+}
+
+.footer__item-span {
+  display: block;
+  color: #9fadc2;
+}
+
+.footer__img {
+  padding-top: 96px;
+}
+
+.form {
+  margin-bottom: 48px;
+  display: grid;
+  row-gap: 16px;
+}
+
+.form__input {
+  width: 280px;
+  height: 48px;
+  border-radius: 16px;
+  padding: 14px 16px;
+  background-color: #f8f8fa;
+  color: #7e7e83;
+}
+.form__input-text {
+  height: 148px;
+  margin-bottom: 16px;
+}
+
+.form__button {
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 27px;
+  background-color: #292929;
+  padding: 0px 48px;
+  width: 280px;
+  height: 56px;
+  border-radius: 40px;
+  margin: 0 auto;
+}
+.form__button:hover {
+  color: #292929;
+  border: 3px solid #292929;
+  background-color: transparent;
 }/*# sourceMappingURL=main.css.map */

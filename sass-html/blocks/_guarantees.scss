@@ -1,0 +1,20 @@
+.guarantees {
+  padding: 96px 0;
+}
+
+.guarantees__title {
+  margin-bottom: 32px;
+}
+
+.guarantees__list {
+  margin-bottom: 40px;
+  display: grid;
+  row-gap: 16px;
+}
+.guarantees__item {
+  font-weight: 700;
+}
+
+.guarantees__description {
+  line-height: 27px;
+}
