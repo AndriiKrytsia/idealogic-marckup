@@ -1,0 +1,23 @@
+.category__title {
+  margin-bottom: 48px;
+}
+
+.category__card {
+  margin-bottom: 40px;
+}
+.category__img {
+  display: inline-block;
+  margin-bottom: 16px;
+
+  &:first-child {
+    margin-right: 10px;
+  }
+}
+
+.category__name {
+  font-weight: 700;
+}
+
+.category__button {
+  @include decorButton;
+}

@@ -1,0 +1,21 @@
+.footer__title {
+  margin-bottom: 48px;
+}
+
+.footer__list {
+  display: grid;
+  row-gap: 24px;
+}
+.footer__item {
+  //   margin-bottom: 24px;
+  color: $color-footer-contacts;
+}
+
+.footer__item-span {
+  display: block;
+  color: $color-footer;
+}
+
+.footer__img {
+  padding-top: 96px;
+}

@@ -8,7 +8,7 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
+      <br class="container">
         <div class="header__top">
           <img class="header__logo" src="./img/header/Logo.svg" alt="Logo" />
           <img
@@ -28,7 +28,7 @@
             src="./img/header/Sound waves.svg"
             alt="sound"
           />
-          <h1 class="header__title">The world shades. Your music shines.</h1>
+          <h1 class="header__title">The world shades.</br> Your music shines.</h1>
         </div>
       </div>
     </header>
@@ -67,22 +67,46 @@
             <h2 class="title-2">Browse Bose products by category</h2>
           </div>
 
-          <div>
-            <img src="./img/category/category1.png" alt="1" />
-            <img src="./img/category/category2.png" alt="2" />
-            <p>Headphones & earbuds</p>
+          <div class="category__card">
+            <img
+              class="category__img"
+              src="./img/category/category1.png"
+              alt="1"
+            />
+            <img
+              class="category__img"
+              src="./img/category/category2.png"
+              alt="2"
+            />
+            <p class="category__name">Headphones & earbuds</p>
           </div>
 
-          <div>
-            <img src="./img/category/category3.png" alt="3" />
-            <img src="./img/category/category4.png" alt="4" />
-            <p>Speakers</p>
+          <div class="category__card">
+            <img
+              class="category__img"
+              src="./img/category/category3.png"
+              alt="3"
+            />
+            <img
+              class="category__img"
+              src="./img/category/category4.png"
+              alt="4"
+            />
+            <p class="category__name">Speakers</p>
           </div>
 
-          <div>
-            <img src="./img/category/category5.png" alt="5" />
-            <img src="./img/category/category6.png" alt="6" />
-            <p>Audio sunglasses</p>
+          <div class="category__card">
+            <img
+              class="category__img"
+              src="./img/category/category5.png"
+              alt="5"
+            />
+            <img
+              class="category__img"
+              src="./img/category/category6.png"
+              alt="6"
+            />
+            <p class="category__name">Audio sunglasses</p>
           </div>
 
           <button class="category__button">Viev all</button>
@@ -91,43 +115,59 @@
 
       <section class="guarantees">
         <div class="container">
-          <div>
-            <h2>Why buy direct from Bose</h2>
+          <div class="guarantees__title">
+            <h2 class="title-2">Why buy direct from Bose</h2>
           </div>
-          <ul>
-            <li>Free 2-day shipping and returns</li>
-            <li>90-day risk-free trial</li>
-            <li>World class customer service</li>
-            <li>My Bose account management</li>
-            <li>
-              A great product is more than what’s in the box. It’s a promise of
-              premium performance, world-class support, and everything you
-              expect from a trusted brand. It’s just one of many reasons why
-              you’ll shop with confidence on Bose.com.
-            </li>
+          <ul class="guarantees__list">
+            <li class="guarantees__item">Free 2-day shipping and returns</li>
+            <li class="guarantees__item">90-day risk-free trial</li>
+            <li class="guarantees__item">World class customer service</li>
+            <li class="guarantees__item">My Bose account management</li>
           </ul>
+          <p class="guarantees__description">
+            A great product is more than what’s in the box. It’s a promise of
+            premium performance, world-class support, and everything you expect
+            from a trusted brand. It’s just one of many reasons why you’ll shop
+            with confidence on Bose.com.
+          </p>
         </div>
       </section>
     </main>
 
     <footer class="footer">
       <div class="container">
-        <div>
-          <h2>Contact us</h2>
+        <div class="footer__title">
+          <h2 class="title-2">Contact us</h2>
         </div>
-        <form action="">
-          <input type="text" />
-          <input type="text" />
-          <input type="text" />
-          <button>Send</button>
+        <form class="form" action="">
+          <input class="form__input" placeholder="Name" type="text" />
+          <input class="form__input" placeholder="Email" type="email" />
+          <input
+            class="form__input form__input-text"
+            placeholder="Message"
+            type="text"
+          />
+          <button class="form__button">Send</button>
         </form>
-        <ul>
-          <li>Phone <a href="tel:+1 234 5555-55-55">+1 234 5555-55-55</a></li>
-          <li>Email <a href="mailto:hello@miami.com">hello@miami.com</a></li>
-          <li>Address 400 first ave.suite 700 Minneapolis, MN 55401</li>
+        <ul class="footer__list">
+         
+          <li class="footer__item">
+             <span class="footer__item-span">Phone</span>
+            <a href="tel:+1 234 5555-55-55">+1 234 5555-55-55</a>
+          </li>
+          <li class="footer__item">
+            <span class="footer__item-span">Email</span>
+            <a href="mailto:hello@miami.com">hello@miami.com</a>
+          </li>
+          <li class="footer__item">
+            <span class="footer__item-span">Address</span>
+             400 first ave.
+             suite 700</br>
+             Minneapolis, MN 55401
+          </li>
         </ul>
-        <img class="footer__img" src="./img/footer/footer.png" alt="footer" />
       </div>
+      <img class="footer__img" src="./img/footer/footer.png" alt="footer" />
     </footer>
   </body>
 </html>
