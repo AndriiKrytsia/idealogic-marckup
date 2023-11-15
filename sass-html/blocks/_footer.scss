@@ -2,12 +2,28 @@
   margin-bottom: 48px;
 }
 
+.footer__wrapper {
+  @include mediaTablet {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+
+    .form {
+      grid-column: 1 / span 1;
+    }
+
+    .footer__list {
+      grid-column: 2 / span 1;
+    }
+  }
+}
+
 .footer__list {
   display: grid;
+  justify-content: center;
   row-gap: 24px;
 }
 .footer__item {
-  //   margin-bottom: 24px;
   color: $color-footer-contacts;
 }
 
@@ -16,6 +32,11 @@
   color: $color-footer;
 }
 
+.footer__item-link {
+  color: $color-footer-contacts;
+}
+
 .footer__img {
+  width: 100%;
   padding-top: 96px;
 }

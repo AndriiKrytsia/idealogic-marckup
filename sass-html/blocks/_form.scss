@@ -2,6 +2,7 @@
   margin-bottom: 48px;
   display: grid;
   row-gap: 16px;
+  justify-content: center;
 }
 .form__input {
   width: 280px;
@@ -15,6 +16,10 @@
     margin-bottom: 16px;
   }
 }
+
 .form__button {
   @include decorButton;
+  @include mediaTablet {
+    width: 280px;
+  }
 }

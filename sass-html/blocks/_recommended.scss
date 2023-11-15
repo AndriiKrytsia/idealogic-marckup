@@ -1,22 +1,44 @@
 .recommended {
   padding-top: 64px;
   padding-bottom: 96px;
+  @include mediaTablet {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
 }
 
 .recommended__title {
-  margin-bottom: 48px;
+  margin-bottom: 64px;
   text-align: center;
 }
 
-.recommended__card:not(:last-child) {
-  margin-bottom: 40px;
+.recommended__wrapper {
+  display: grid;
+  justify-content: center;
+  gap: 40px;
+
+  @include mediaDesktop {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+  }
+}
+
+.recommended__img {
+  @include mediaTablet {
+    width: 392px;
+    height: 392px;
+    margin-bottom: 32px;
+  }
+  @include mediaDesktop {
+    width: 324px;
+    height: 324px;
+  }
 }
 
 .recommended__product-name {
   margin-bottom: 8px;
   color: $color-text;
   font-weight: 700;
-  line-height: 22.4px;
 }
 
 .recommended__product-description {

@@ -8,7 +8,7 @@
   </head>
   <body>
     <header class="header">
-      <br class="container">
+      <div class="container">
         <div class="header__top">
           <img class="header__logo" src="./img/header/Logo.svg" alt="Logo" />
           <img
@@ -39,24 +39,25 @@
           <div class="recommended__title">
             <h2 class="title-2">Recommended</h2>
           </div>
-
+<div class="recommended__wrapper">
           <div class="recommended__card">
-            <img src="./img/recommended/Image1.png" alt="product" />
+            <img class="recommended__img" src="./img/recommended/Image1.png" alt="product" />
             <p class="recommended__product-name">Bose portable Smart speaker</p>
             <p class="recommended__product-description">Smart home</p>
             <p class="recommended__product-price">$ 399.00</p>
           </div>
           <div class="recommended__card">
-            <img src="./img/recommended/Image2.png" alt="product" />
+            <img class="recommended__img" src="./img/recommended/Image2.png" alt="product" />
             <p class="recommended__product-name">Bose portable Smart speaker</p>
             <p class="recommended__product-description">Smart home</p>
             <p class="recommended__product-price">$ 149.00</p>
           </div>
           <div class="recommended__card">
-            <img src="./img/recommended/Image3.png" alt="product" />
+            <img class="recommended__img" src="./img/recommended/Image3.png" alt="product" />
             <p class="recommended__product-name">Bose portable Smart speaker</p>
             <p class="recommended__product-description">Smart home</p>
             <p class="recommended__product-price">$ 129.00</p>
+          </div>
           </div>
         </div>
       </section>
@@ -64,57 +65,120 @@
       <section class="category">
         <div class="container">
           <div class="category__title">
-            <h2 class="title-2">Browse Bose products by category</h2>
+            <h2 class="title-2">Browse Bose</br> products by category</h2>
           </div>
-
+      
           <div class="category__card">
             <img
-              class="category__img"
+              class="category__img category__img-mobile"
               src="./img/category/category1.png"
               alt="1"
             />
             <img
-              class="category__img"
+              class="category__img category__img-mobile"
               src="./img/category/category2.png"
               alt="2"
             />
-            <p class="category__name">Headphones & earbuds</p>
+              <img
+              class="category__img category__img-tablet"
+              src="./img/category/tablet/Image1.png"
+              alt="1"
+            />
+              <img
+              class="category__img category__img-tablet"
+              src="./img/category/tablet/Image1-small.png"
+              alt="1"
+            />
+            <img 
+               class="category__img category__img-desk" 
+               src="./img/category/desk/Image1.png" 
+               alt="desk-1">
+            <img 
+               class="category__img category__img-desk" 
+               src="./img/category/desk/Image2-small.png" 
+               alt="desk-2">
+
           </div>
+            <p class="category__name">Headphones & earbuds</p>
 
           <div class="category__card">
             <img
-              class="category__img"
+              class="category__img category__img-mobile"
               src="./img/category/category3.png"
               alt="3"
             />
             <img
-              class="category__img"
+              class="category__img category__img-mobile"
               src="./img/category/category4.png"
-              alt="4"
+              alt="3"
             />
-            <p class="category__name">Speakers</p>
-          </div>
 
-          <div class="category__card">
+           
             <img
-              class="category__img"
+              class="category__img category__img-tablet"
+             src="./img/category/tablet/Image2.png"
+              alt="1"
+            />
+                 <img
+              class="category__img category__img-tablet"
+              src="./img/category/tablet/Image2-small.png"
+              alt="4"
+            /> 
+         
+            <img 
+            class="category__img category__img-desk" 
+            src="./img/category/desk/Image3.png" 
+            alt="desk-1">
+            <img 
+            class="category__img category__img-desk" 
+            src="./img/category/desk/Image4-small.png" 
+            alt="desk-2">
+
+          </div>
+            <p class="category__name">Speakers</p>
+
+          <div class="category__card category__card-reversed">
+            <img
+              class="category__img category__img-mobile"
               src="./img/category/category5.png"
               alt="5"
             />
             <img
-              class="category__img"
+              class="category__img category__img-mobile"
               src="./img/category/category6.png"
               alt="6"
             />
-            <p class="category__name">Audio sunglasses</p>
-          </div>
 
-          <button class="category__button">Viev all</button>
+               <img
+              class="category__img category__img-tablet"
+              src="./img/category/tablet/Image3-small.png"
+              alt="5"
+            />
+            
+             <img
+              class="category__img category__img-tablet"
+               src="./img/category/tablet/Image3.png"
+              alt="1"
+            />
+            <img 
+              class="category__img category__img-desk" 
+              src="./img/category/desk/Image5-small.png" 
+              alt="desk-2">
+            <img 
+              class="category__img category__img-desk" 
+              src="./img/category/desk/Image6.png" 
+              alt="desk-1">
+          </div>
+            <p class="category__name">Audio sunglasses</p>
+        <div class="button-wrapper">
+          <button class="category-button">Viev all</button>
+        </div>
         </div>
       </section>
 
       <section class="guarantees">
         <div class="container">
+          <div class="guarantees__wrapper">
           <div class="guarantees__title">
             <h2 class="title-2">Why buy direct from Bose</h2>
           </div>
@@ -124,12 +188,15 @@
             <li class="guarantees__item">World class customer service</li>
             <li class="guarantees__item">My Bose account management</li>
           </ul>
-          <p class="guarantees__description">
+          <!-- <div class="guarantees__description"> -->
+          <p class="guarantees__description guarantees__description-text">
             A great product is more than what’s in the box. It’s a promise of
             premium performance, world-class support, and everything you expect
             from a trusted brand. It’s just one of many reasons why you’ll shop
             with confidence on Bose.com.
           </p>
+          <!-- </div> -->
+          </div>
         </div>
       </section>
     </main>
@@ -139,6 +206,7 @@
         <div class="footer__title">
           <h2 class="title-2">Contact us</h2>
         </div>
+        <div class="footer__wrapper">
         <form class="form" action="">
           <input class="form__input" placeholder="Name" type="text" />
           <input class="form__input" placeholder="Email" type="email" />
@@ -150,24 +218,26 @@
           <button class="form__button">Send</button>
         </form>
         <ul class="footer__list">
-         
           <li class="footer__item">
              <span class="footer__item-span">Phone</span>
-            <a href="tel:+1 234 5555-55-55">+1 234 5555-55-55</a>
+            <a class="footer__item-link" href="tel:+1 234 5555-55-55">+1 234 5555-55-55</a>
           </li>
           <li class="footer__item">
             <span class="footer__item-span">Email</span>
-            <a href="mailto:hello@miami.com">hello@miami.com</a>
+            <a class="footer__item-link" href="mailto:hello@miami.com">hello@miami.com</a>
           </li>
           <li class="footer__item">
             <span class="footer__item-span">Address</span>
-             400 first ave.
+             <a class="footer__item-link" href="">
+              400 first ave.
              suite 700</br>
-             Minneapolis, MN 55401
+             Minneapolis, MN 55401</a> 
           </li>
         </ul>
+        </div>
       </div>
       <img class="footer__img" src="./img/footer/footer.png" alt="footer" />
     </footer>
   </body>
 </html>
+
