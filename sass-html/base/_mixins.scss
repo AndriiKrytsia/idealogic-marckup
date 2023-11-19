@@ -9,23 +9,26 @@
   width: 280px;
   height: 56px;
   border-radius: 40px;
-  margin: 0 auto;
 
   &:hover {
     color: $color-text;
     border: 3px solid $color-text;
     background-color: transparent;
   }
+
+  @include mediaTablet {
+    width: 392px;
+  }
 }
 
 @mixin mediaTablet {
-  @media screen and (max-width: $tablet) {
+  @media screen and (min-width: $tablet) {
     @content;
   }
 }
 
 @mixin mediaDesktop {
-  @media screen and (max-width: $desktop) {
+  @media screen and (min-width: $desktop) {
     @content;
   }
 }
