@@ -50,18 +50,6 @@
     }
   }
 
-  // &-tablet {
-  //   display: none;
-
-  //   @include mediaTablet {
-  //     display: block;
-  //   }
-
-  //   @include mediaDesktop {
-  //     display: none;
-  //   }
-  // }
-
   &-desk {
     display: none;
     height: 324px;
@@ -84,6 +72,10 @@
 }
 
 .button-wrapper {
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.category-button {
   @include decorButton;
 }

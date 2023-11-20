@@ -1,5 +1,7 @@
 .guarantees {
   padding: 96px 0;
+  display: flex;
+  flex-direction: column;
   @include mediaTablet {
     padding: 120px 0;
   }
@@ -15,10 +17,7 @@
       grid-column: 1 / span 1;
     }
 
-    .guarantees__list {
-      grid-column: 2 / span 1;
-    }
-
+    .guarantees__list,
     .guarantees__description {
       grid-column: 2 / span 1;
     }
@@ -26,20 +25,17 @@
 }
 
 .guarantees__title {
-  margin: 0 auto;
-  text-align: start;
+  text-align: left;
   max-width: 280px;
   margin-bottom: 32px;
-
   @include mediaTablet {
     width: 287px;
   }
 }
 
 .guarantees__list {
-  display: grid;
-  justify-content: center;
-  align-items: start;
+  display: flex;
+  flex-direction: column;
   margin-bottom: 40px;
   row-gap: 16px;
 }
@@ -48,7 +44,9 @@
 }
 
 .guarantees__description {
-  margin: 0 auto;
   line-height: 27px;
   max-width: 287px;
+  @include mediaDesktop {
+    max-width: 410px;
+  }
 }

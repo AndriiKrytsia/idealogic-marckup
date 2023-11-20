@@ -7,20 +7,18 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 24px;
-
-    .form {
-      grid-column: 1 / span 1;
-    }
-
-    .footer__list {
-      grid-column: 2 / span 1;
-    }
   }
 }
 
 .footer__list {
   display: grid;
   justify-content: center;
+  @include mediaTablet {
+    height: 244px;
+  }
+  @include mediaDesktop {
+    height: 244px;
+  }
   row-gap: 24px;
 }
 .footer__item {
@@ -37,6 +35,9 @@
 }
 
 .footer__img {
+  display: block;
   width: 100%;
   padding-top: 96px;
+  max-width: 1260px;
+  margin: 0 auto;
 }

@@ -3,6 +3,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  max-width: 1260px;
+  margin: 0 auto;
 }
 
 .header__top {
@@ -23,6 +25,7 @@
     height: 24px;
   }
 }
+
 .header__tel {
   width: 24px;
   height: 24px;
@@ -34,6 +37,7 @@
     margin-right: 32px;
   }
 }
+
 .header__menu {
   width: 24px;
   height: 24px;
