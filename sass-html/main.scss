@@ -1,13 +1,13 @@
-@import "./base/reset";
-@import "./base/vars";
-@import "./base/mixins";
-@import "./base/base";
+@import "./sass-html/base/reset";
+@import "./sass-html/base/vars";
+@import "./sass-html/base/mixins";
+@import "./sass-html/base/base";
 
 // BLOCK
 
-@import "./blocks/header";
-@import "./blocks/recommended";
-@import "./blocks/category";
-@import "./blocks/guarantees";
-@import "./blocks/footer";
-@import "./blocks/form";
+@import "./sass-html/blocks/header";
+@import "./sass-html/blocks/recommended";
+@import "./sass-html/blocks/category";
+@import "./sass-html/blocks/guarantees";
+@import "./sass-html/blocks/footer";
+@import "./sass-html/blocks/form";
